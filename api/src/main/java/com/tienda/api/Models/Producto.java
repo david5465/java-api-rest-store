@@ -29,7 +29,7 @@ public class Producto {
     private BigDecimal costPrice;
     private BigDecimal salePrice;
     private boolean available;
-    private String suplier;
+    private String supplier;
     private String category;
     private BigDecimal tax;
 
@@ -42,7 +42,7 @@ public class Producto {
         this.costPrice = dataProduct.costPrice();
         this.salePrice = dataProduct.salePrice();
         this.available = dataProduct.available();
-        this.suplier = dataProduct.supplier();
+        this.supplier = dataProduct.supplier();
         this.category = dataProduct.category();
         this.tax = dataProduct.tax();
     }
