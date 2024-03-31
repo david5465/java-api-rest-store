@@ -4,7 +4,7 @@ CREATE TABLE productos (
     barcode VARCHAR(50) UNIQUE NOT NULL,
     title VARCHAR(255) NOT NULL,
     brand VARCHAR(100),
-    description TEXT,
+    description VARCHAR(255),
     costPrice NUMERIC(12,2) NOT NULL,
     salePrice NUMERIC(12,2) NOT NULL,
     available BOOLEAN NOT NULL,
