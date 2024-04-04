@@ -28,6 +28,7 @@ public class Producto {
     private String description;
     private BigDecimal costPrice;
     private BigDecimal salePrice;
+    private BigDecimal cantidad;
     private boolean available;
     private String supplier;
     private String category;
@@ -39,8 +40,9 @@ public class Producto {
         this.title = dataProduct.title();
         this.brand = dataProduct.brand();
         this.description = dataProduct.description();
-        this.costPrice = dataProduct.costPrice();
-        this.salePrice = dataProduct.salePrice();
+        this.costPrice = dataProduct.cost_price();
+        this.salePrice = dataProduct.sale_price();
+        this.cantidad = dataProduct.cantidad();
         this.available = dataProduct.available();
         this.supplier = dataProduct.supplier();
         this.category = dataProduct.category();
